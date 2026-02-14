@@ -68,3 +68,7 @@
 	- Pila de llamadas (Muestra los cambiós en código)
 	- Cortex Live Watch (Muestra ejecución y cambios de variables pero es necesario determinar cuales)
 	- Las acciones se observan en Consola de Depuración
+
+
+## Continuation with project
+- The board STM32F446RE is using a Cortex-M4
