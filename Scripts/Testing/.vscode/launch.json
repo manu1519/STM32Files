@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32 (Oficial)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "stlink",
+"interface": "swd", 
+"serverArgs": ["-f", "interface/stlink.cfg"],
+            "executable": "${command:cmake.launchTargetPath}",
+            "liveWatch": {
+                "enabled": true
+            },
+            "armToolchainPath": "C:/Users/Manuel/Downloads/arm-gnu-toolchain-15.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin",
+            "serverpath": "C:/Users/Manuel/STMicroelectronics/STM32CubeProgrammer/bin/ST-LINK_gdbserver.exe"
+        },
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/debug/Testing.elf",
+            "name": "Debug STM32",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "Build STM",
+            "device": "stm32f446",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        },
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/debug/Testing.elf",
+            "name": "Attach STM32",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "Build STM",
+            "device": "stm32f446",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        }
+    ]
+}

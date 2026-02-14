@@ -1,0 +1,15 @@
+# Compilación
+build/
+Debug/
+Release/
+*.elf
+*.bin
+*.map
+
+# VS Code
+.vscode/ipch/
+.vscode/.cmaketools/
+.history/
+
+# Archivos temporales de CubeMX
+.mxproject
