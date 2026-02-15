@@ -72,3 +72,40 @@
 
 ## Continuation with project
 - The board STM32F446RE is using a Cortex-M4
+- To deliver a message to the Serial Port, it was faced another issue:
+	- The ST Extension from VSCode works more at superior level, rather than Board level
+	- The mentioned above is translate as even with all well setting on the Board and communication with VSCode, there still configurations that it must to be aware from VSCode implementation
+	- Serial Monitoring is using COM8(STMicrocontroler) 115200
+- # EXTREMELY IMPORTANT
+	- All implementations comes from "Application code and other source files" - "STM32-CUBE Layer (STM32Fx_HAL_DRIVER)" - "CMSIS-CORE" - "ARM Cortex Mx Processor"  ![[Architect.jpeg]]
+	- So all API Calls **CANNOT** being writing as follow:
+	    HAL_UART_Transmit(&huart2, (uint8_t*)user_data, strlen(user_data), HAL_MAX_DELAY);
+	- And completely not follow to use APIs to communicate the Peripherals
+
+#### Mandatory and Optional MCU Units
+- Flash Controller Inits 
+- Floating  point unit inits if supported (Optional)
+- Stting up Stack (Mandatory)
+- System Clock settings (optional) - HSI -HSE -System PLL
+- Flash wait state settings when sysetem clock is more (Mandatory)
+- Systick Timer initialization to trigger interrupt for every 1 ms (Required when use STM32 HAL APIs)
+
+  `/* Reset of all peripherals, Initializes the Flash interface and the Systick. */`
+  `HAL_Init();`
+  `/* USER CODE BEGIN Init */
+  
+  `/* USER CODE END Init */`
+  
+  `/* Configure the system clock */`
+  `SystemClock_Config();`
+
+  `/* USER CODE BEGIN SysInit */`
+
+  `/* USER CODE END SysInit */`
+
+  `/* Initialize all configured peripherals */`
+  `MX_GPIO_Init();`
+  `MX_USART2_UART_Init();`
+
+- The observed above is the code section that must initialize the APIs, those are related with the Clock 
+  ![[ProgramFlow.jpeg]]
