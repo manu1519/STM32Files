@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "First implementation"
             }
+          },
+          {
+            "id": "bef26da4dfe0cc65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/First implementation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "First implementation"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,21 +212,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "a97d24b8d690532d",
+  "active": "bef26da4dfe0cc65",
   "lastOpenFiles": [
-    "Scripts/First_Task_Program/Core/Src/syscalls.c",
-    "Scripts/First_Task_Program/Core/Src/sysmem.c",
-    "Scripts/First_Task_Program/STM32F446XX_FLASH.ld",
-    "Scripts/First_Task_Program/tmp_linkerData_singleProject.xml",
-    "Scripts/First_Task_Program/startup_stm32f446xx.s",
-    "Scripts/First_Task_Program/cmake/stm32cubemx/CMakeLists.txt",
-    "Scripts/First_Task_Program/CMakeLists.txt",
-    "Scripts/First_Task_Program/CMakePresets.json",
-    "Scripts/First_Task_Program/cmake/stm32cubemx",
-    "Scripts/First_Task_Program/cmake/starm-clang.cmake",
-    "Scripts/First_Task_Program/cmake/gcc-arm-none-eabi.cmake",
-    "Notes/Understanding Structure of STM32F446RE.md",
+    "Notes/GIT COMMANDS.md",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj",
+    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj",
     "Notes/First implementation.md",
+    "Notes/Understanding Structure of STM32F446RE.md",
     "README.md",
     "Images/ProgramFlow.jpeg",
     "Images/Architect.jpeg",
