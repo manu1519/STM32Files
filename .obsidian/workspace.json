@@ -11,14 +11,12 @@
             "id": "3b2ce14dd5daf240",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Notes/Understanding Structure of STM32F446RE.md",
-                "mode": "source",
-                "source": false
+                "file": "Files/pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Understanding Structure of STM32F446RE"
+              "icon": "lucide-file-text",
+              "title": "pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics"
             }
           },
           {
@@ -41,16 +39,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/First implementation.md",
+                "file": "Notes/GIT COMMANDS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "First implementation"
+              "title": "GIT COMMANDS"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e78c3b84b298f21a",
@@ -212,21 +211,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "bef26da4dfe0cc65",
+  "active": "a97d24b8d690532d",
   "lastOpenFiles": [
-    "Notes/GIT COMMANDS.md",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj",
+    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmpc9fae",
+    "Scripts/First_Task_Program/build/Debug/CMakeFiles/rules.ninja.tmp45c34",
+    "Scripts/First_Task_Program/build/Debug/build.ninja.tmpe53ad",
+    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmpf95dd",
+    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmp15771",
+    "Scripts/First_Task_Program/build/Debug/compile_commands.json.tmpb8372",
+    "Scripts/First_Task_Program/build/Debug/CMakeFiles/rules.ninja.tmpd3a90",
+    "Scripts/First_Task_Program/build/Debug/build.ninja.tmp3a592",
+    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmp0e756",
+    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmpf556c",
+    "Scripts/First_Task_Program/build/Debug/build.ninja.tmp3d129",
     "Notes/First implementation.md",
     "Notes/Understanding Structure of STM32F446RE.md",
+    "Notes/GIT COMMANDS.md",
     "README.md",
     "Images/ProgramFlow.jpeg",
     "Images/Architect.jpeg",

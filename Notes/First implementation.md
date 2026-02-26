@@ -39,4 +39,11 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 	5. Consider this prior should determine when it has 2 pending actions and will move forward depending on their set values:
 	   0 - 4 bits for preemption priority (Using this will attempt with the least priority)
 	   4 - 0 bits for subpriority
-        
+	6. Considering the Exceptions, you can follow the Cortex manual [[pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics.pdf#page=235&offset=67,754|pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics, 4.4.9 System handler control and state register (SHCSR)]]
+
+4. Peripheral Initializations : UART2
+	1. There are 2 types of Initialization, High Level or Low Level, 
+		1. High Level are more related with the Bus appliances
+		2. Low Level, is more related to Pin settings pin muxing, Clock, IRQ, NVIC 
+	2. Will need to set a function were it calls the Pin related, this is following the ***stm32f446xx.h*** It is prior to read all the instructions per variable set. As this moments it is implemented the UART port, i should follow the parameters of the Peripheral ***huart2*** 
+	3. 
