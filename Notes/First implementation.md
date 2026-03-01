@@ -45,5 +45,21 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 	1. There are 2 types of Initialization, High Level or Low Level, 
 		1. High Level are more related with the Bus appliances
 		2. Low Level, is more related to Pin settings pin muxing, Clock, IRQ, NVIC 
-	2. Will need to set a function were it calls the Pin related, this is following the ***stm32f446xx.h*** It is prior to read all the instructions per variable set. As this moments it is implemented the UART port, i should follow the parameters of the Peripheral ***huart2*** 
-	3. 
+	2. Will need to set a function were it calls the Pin related, this is following the ***stm32f446xx.h*** It is prior to read all the instructions per variable set. As this moments it is implemented the UART port, i should follow the parameters of the Peripheral ***huart2*** (High Level)
+	3. To enable the Low Level initialization, Follow:
+		1. Enable the Required peripheral clock
+		2. Do pin muxing configurations
+		3. Enable the peripheral IRQ in the NVIC
+		4. Set the priority as per your application need
+	4. **Normally when a peripheral is not working as expected the function HAL_UART_MspInit() is the first should be reviewed.***
+	5. Pin Muxing vary depending on the Microcontroler, so it is MAINLY UNDERSTAND this step 
+		1. UART needs RX and TX
+		2. We can use 2 GPIOs of the MCU for RX and TX
+		3. Before using GPIOs for UART is need to set their mode as: **ALTERNATE FUNCTIONALITY MODE**
+		4. Which for this case the FUNCIONALITY MODE is the UART
+		5. So to understand the Pins, we need to refer to the datasheet of the MCU [[stm32f446re.pdf#page=57&selection=154,0,207,1|stm32f446re, page 57]] and [[stm32f446re.pdf#page=60&selection=187,0,240,1|stm32f446re, page 60]] 
+		6. To find the functions, refer to the stm32f4xx_hal_gpio.c Normally is used the *Init*
+		7. [[[UART_FRAME.jpeg]]] ALWAYS SET to PullUp
+		8. Part of the settings of Pins Mux, need to be careful with the Alternate set, as referred on [[stm32f446re.pdf#page=60&selection=187,0,240,1|stm32f446re, page 60]] When you select the pins there is a Column which describes the utilization in this case as it is USART2_RX and USART_TX the responsive setting should be AF7 (Pin PA2 and PA3) Also it will be necessary to find the Macros configurations in a different file than: *stm32f4xx_hal_gpio.c* this is: stm32f4xx_hal_gpio_ex.c
+	6. The peripheral IRQ normally is used to set the Async communication which can result in: End Transmission, End Reception, Error Detection 
+		1. To find which to use, it will needed to search on documentation stm32f446xx.h the function **IRQn_Type** 

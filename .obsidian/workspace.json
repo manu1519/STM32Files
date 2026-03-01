@@ -13,10 +13,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Files/pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics.pdf"
+                "file": "Files/rm0390-stm32f446xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics"
+              "title": "rm0390-stm32f446xx-advanced-armbased-32bit-mcus-stmicroelectronics"
+            }
+          },
+          {
+            "id": "8fe9ba8648fa5e75",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/stm32f446re.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "stm32f446re"
             }
           },
           {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,18 +225,18 @@
   },
   "active": "a97d24b8d690532d",
   "lastOpenFiles": [
+    "Files/stm32f446re.pdf",
+    "Notes/First implementation.md",
+    "Images/UART_FRAME.jpeg",
+    "Images/Sin confirmar 624544.crdownload",
+    "Files/rm0390-stm32f446xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+    "Files/nucleo-f446re.pdf",
+    "Files/Sin confirmar 349231.crdownload",
+    "Files/pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics.pdf",
+    "Files/mb1136-default-c04_schematic.pdf",
+    "Files/mb1136-default-c03_schematic.pdf",
     "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmpc9fae",
     "Scripts/First_Task_Program/build/Debug/CMakeFiles/rules.ninja.tmp45c34",
-    "Scripts/First_Task_Program/build/Debug/build.ninja.tmpe53ad",
-    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmpf95dd",
-    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmp15771",
-    "Scripts/First_Task_Program/build/Debug/compile_commands.json.tmpb8372",
-    "Scripts/First_Task_Program/build/Debug/CMakeFiles/rules.ninja.tmpd3a90",
-    "Scripts/First_Task_Program/build/Debug/build.ninja.tmp3a592",
-    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmp0e756",
-    "Scripts/First_Task_Program/build/Debug/CMakeCache.txt.tmpf556c",
-    "Scripts/First_Task_Program/build/Debug/build.ninja.tmp3d129",
-    "Notes/First implementation.md",
     "Notes/Understanding Structure of STM32F446RE.md",
     "Notes/GIT COMMANDS.md",
     "README.md",
