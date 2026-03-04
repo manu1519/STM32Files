@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/Debug/First_Task_Program.elf",
+            "name": "Debug STM32",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "CMake: compilación",
+            "device": "STM32F446RE",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        },
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/Debug/First_Task_Program.elf",
+            "name": "Attach STM32",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "CMake: compilación",
+            "device": "STM32F446RE",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        }
+    ]
+}
