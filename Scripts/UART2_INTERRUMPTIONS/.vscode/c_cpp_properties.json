@@ -2,10 +2,21 @@
     "configurations": [
         {
             "name": "STM32",
-            "compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
-            "defines": [],
-            "includePath": [],
-            "compilerPath": "c:\\Users\\Manuel\\AppData\\Roaming\\Code\\User\\globalStorage\\bmd.stm32-for-vscode\\@xpack-dev-tools\\arm-none-eabi-gcc\\14.2.1-1.1.1\\.content\\bin\\arm-none-eabi-gcc.EXE"
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "STM32F446xx",
+                "USE_HAL_DRIVER",
+                "DEBUG"
+            ],
+            "compilerPath": "C:/Users/Manuel/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-arm",
+            "configurationProvider": "",
+            "compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json"
         }
-    ]
+    ],
+    "version": 4
 }
