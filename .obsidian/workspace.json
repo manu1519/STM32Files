@@ -13,10 +13,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Files/rm0390-stm32f446xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf"
+                "file": "Files/mb1136-default-c03_schematic.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "rm0390-stm32f446xx-advanced-armbased-32bit-mcus-stmicroelectronics"
+              "title": "mb1136-default-c03_schematic"
+            }
+          },
+          {
+            "id": "f08062ca5774e9a0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/mb1136-default-c04_schematic.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "mb1136-default-c04_schematic"
             }
           },
           {
@@ -32,20 +44,6 @@
             }
           },
           {
-            "id": "a97d24b8d690532d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/First implementation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "First implementation"
-            }
-          },
-          {
             "id": "bef26da4dfe0cc65",
             "type": "leaf",
             "state": {
@@ -58,9 +56,23 @@
               "icon": "lucide-file",
               "title": "GIT COMMANDS"
             }
+          },
+          {
+            "id": "2ee1ca43aace8df8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clocks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clocks"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -214,32 +226,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
     }
   },
-  "active": "a97d24b8d690532d",
+  "active": "bef26da4dfe0cc65",
   "lastOpenFiles": [
-    "Scripts/First_Task_Program/build/Debug/CMakeFiles/First_Task_Program.dir/ManuFiles/main.c.obj.d",
-    "Scripts/First_Task_Program/build/Debug/projectName.elf.in",
-    "Scripts/First_Task_Program/STM32Make.make",
-    "Scripts/First_Task_Program/build/Debug/First_Task_Program.elf",
-    "Scripts/First_Task_Program/build/Debug/First_Task_Program.map",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj",
-    "Scripts/First_Task_Program/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj",
+    "Clocks.md",
+    "Files/mb1136-default-c04_schematic.pdf",
+    "Files/mb1136-default-c03_schematic.pdf",
+    "Files/nucleo-f446re.pdf",
+    "Files/pm0214-stm32-cortexm4-mcus-and-mpus-programming-manual-stmicroelectronics.pdf",
+    "Files/rm0390-stm32f446xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf",
+    "Files/stm32f446re.pdf",
+    "Scripts/CLOCKS/build/Debug/CMakeCache.txt.tmp64830",
+    "Scripts/CLOCKS/build/Debug/compile_commands.json.tmp89b21",
+    "Scripts/CLOCKS/build/Debug/CMakeFiles/rules.ninja.tmpb8292",
+    "Scripts/CLOCKS/build/Debug/build.ninja.tmp4a410",
     "Notes/First implementation.md",
+    "Notes/GIT COMMANDS.md",
     "Images/UART_FRAME.jpeg",
     "Notes/Understanding Structure of STM32F446RE.md",
-    "Notes/GIT COMMANDS.md",
     "README.md",
     "Images/ProgramFlow.jpeg",
     "Images/Architect.jpeg",
