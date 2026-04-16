@@ -8,7 +8,7 @@
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
-            "preLaunchTask": "CMake: compilación",
+           // "preLaunchTask": "CMake: compilación",
             "device": "STM32F446RE",
             "configFiles": [
                 "openocd.cfg"
@@ -22,7 +22,7 @@
             "request": "attach",
             "type": "cortex-debug",
             "servertype": "openocd",
-            "preLaunchTask": "CMake: compilación",
+           // "preLaunchTask": "CMake: compilación",
             "device": "STM32F446RE",
             "configFiles": [
                 "openocd.cfg"
